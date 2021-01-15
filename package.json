@@ -29,6 +29,9 @@
     "install-client": "npm install",
     "heroku-postbuild": "npm run install-client && npm run client-build"
   },
+  "engines": {
+    "node": "15.4.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
