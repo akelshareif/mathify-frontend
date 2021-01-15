@@ -1,0 +1,11 @@
+.NavBar {
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+.NavBar i {
+    font-size: 1.3rem;
+}
+
+.NavBar button {
+    font-size: 1.1rem;
+}
