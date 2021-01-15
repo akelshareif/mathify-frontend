@@ -8,7 +8,7 @@ class MathifyAPI {
             return await axios({
                 method: verb,
                 // url: `http://localhost:3001/${endpoint}`,
-                url: `https://mathify.herokuapp.com/${endpoint}`,
+                url: `https://mathify-backend.herokuapp.com/${endpoint}`,
                 [verb === 'get' ? 'params' : 'data']: paramsOrData,
             });
             // axios sends query string data via the "params" key,
